@@ -1,0 +1,157 @@
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# Virtual Environments
+# ============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+.python-version
+
+# ============================================================================
+# Testing, Coverage, Linting & Type Checking
+# ============================================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+pytestdebug.log
+
+# ============================================================================
+# Jupyter Notebooks
+# ============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ============================================================================
+# Machine Learning, Model Weights & Experiment Tracking
+# ============================================================================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.safetensors
+*.pkl
+*.pickle
+*.npy
+*.npz
+checkpoints/
+weights/
+models/
+runs/
+logs/
+outputs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+
+# ============================================================================
+# Datasets & Archives
+# ============================================================================
+data/
+datasets/
+stage1_train/
+stage1_test/
+stage1_weightmaps/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
+
+# ============================================================================
+# Environment Variables & Secrets
+# ============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ============================================================================
+# IDEs & Editors
+# ============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+*.sublime-workspace
+*.sublime-project
+
+# ============================================================================
+# Logs & Temporary Files
+# ============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.Trash-*
+
